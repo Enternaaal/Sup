@@ -213,3 +213,14 @@ body {
   line-height: 39px;
   color: #0093a1;
 }
+
+/* advantages */
+
+.info {
+  background-image: url("../images/advantages-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  position: relative;
+}
