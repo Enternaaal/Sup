@@ -215,7 +215,7 @@ body {
   color: #0093a1;
 }
 
-/* advantages */
+/* info */
 
 .info {
   background-image: url("../images/info-bg.jpg");
@@ -307,19 +307,127 @@ body {
 }
 
 .info__list {
-    border-top: 1px solid #ffff;
-    border-bottom: 1px solid #fff;
-    width: 657px;
-    padding: 30px 0;
-    font-weight: 700;
+  border-top: 1px solid #ffff;
+  border-bottom: 1px solid #fff;
+  width: 657px;
+  padding: 30px 0;
+  font-weight: 700;
 }
 
 .info__item {
-    margin-bottom: 15px;
-    display: flex;
-    gap: 25px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 25px;
 }
 
 .info__caption {
-    width: 190px;
+  width: 190px;
+}
+
+/* buy */
+
+.buy {
+  margin-top: 150px;
+}
+
+.buy__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy__column--one {
+  flex-basis: 502px;
+  margin-right: 122px;
+}
+
+.buy__title {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 67px;
+  color: #0093a1;
+  margin-bottom: 50px;
+  min-width: 502px;
+}
+
+.buy__list {
+  flex-basis: 292px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.buy__list:before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/buy-decor.svg");
+  background-repeat: no-repeat;
+  bottom: 20px;
+  right: 0;
+  width: 201px;
+  height: 199px;
+}
+
+.buy__item-caption {
+  font-family: "Inter";
+  padding-top: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #262c27;
+}
+
+.buy__item-caption--active {
+  color: #0093a1;
+}
+
+.buy__item-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #262c27;
+}
+
+.buy__item {
+  max-width: 294px;
+  padding-bottom: 25px;
+}
+
+.buy__btn {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  color: #0093a1;
+  padding: 18px 197px 18px;
+  border: 2px solid #0093a1;
+  transition: all 0.3s ease;
+}
+
+.buy__btn:hover {
+  background: #b9c400;
+  color: #262c27;
+  border: 2px solid #b9c400;
+}
+
+.buy__img {
+  margin-top: 80px;
+}
+
+.buy__spn {
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 433px;
+  left: 354px;
+  font-weight: 700;
+  font-family: "Inter";
+  font-size: 35px;
+  color: #262c27;
 }
